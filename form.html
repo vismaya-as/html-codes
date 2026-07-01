@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admission form</title>
+<style>
+h1,button{ text-align:center}
+</style>
+</head>
+
+<body>
+<form>
+
+<hr>
+
+<h1>ADMISSION FORM</h1>
+
+<hr>
+
+<section>
+
+<h2>Personal Details:</h2>
+
+<pre>
+Full Name:<input type="text" id="fullname" name="fullname">
+<br/>
+Date Of Birth:<input type="date" id="dob" name="dob">
+<br/>
+<label>Gender:</label>
+<fieldset>
+<input type="radio" id="gender" name="gender" value="male">Male
+<input type="radio" id="gender" name="gender" value="female">Female
+<input type="radio" id="gender" name="gender" value="others">Others
+<br/>
+</fieldset>
+
+Phone number:<input type="number" id="no" name="no">
+<br/>
+Email:<input type="email" id="mail" name="mail">
+<br/>
+Profile Photo:<input type="file" id="pfp" name="pfp">
+<br/>
+</pre>
+
+</section>
+
+<h2>Academic Details:</h2>
+
+<pre>
+<label>Qualifying Exam</label>
+
+<fieldset>
+<input type="radio" id="exam" name="exam" value="hsc">HSC
+<input type="radio" id="exam" name="exam" value="diploma">Diploma
+<input type="radio" id="exam" name="exam" value="others">Others
+
+Specify others:<textarea id="others" name="others"></textarea>
+</fieldset>
+
+<br/>
+
+University:<input type="text" id="uni" name="uni">
+
+<br/>
+
+Year of passing:<input type="date" id="yop" name="yop">
+
+<br/>
+
+Percentage:<input type="text" id="perc" name="yop">
+
+<br/>
+
+Course:<input type="text" id="cor" name="cor">
+
+</pre>
+
+<br/>
+
+</section>
+
+<center>
+<button type="button">Submit</button>
+</center>
+
+<hr>
+
+</body>
+</html>
